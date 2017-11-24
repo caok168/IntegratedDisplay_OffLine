@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Model.CommonObj" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DecisionProjectObj" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAQAAEAAAAAAAAEAAAA=</HashCode>
+      <FileName>DecisionProjectObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DetectRecordObj" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIIAQAAAAQAgQCAAAAQAAAAAggAAAAAAAAAADAAAAQ=</HashCode>
+      <FileName>DetectRecordObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.UnitAreaConfigObj" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAQAgAAAAAAAAAIABAgAAIAAAEAAAAAAAAA=</HashCode>
+      <FileName>UnitAreaConfigObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlsCenter.ControlsForm" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAATAEACAIADABQBEQoAAiCIAAAEAAAIQIBGAgQEA=</HashCode>
+      <FileName>Controls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlsCenter.Client" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIYgAgEAIAIIAgACAABQBAAAFAAAGABAAAAAAIAM=</HashCode>
+      <FileName>Controls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyComponets.DBUtility.OracleConnectionHelper" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>OracleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyComponets.DBUtility.OracleHelper" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBCmAABAAACAAAAAAEEAACIAAAAABAAAAAAABAEA=</HashCode>
+      <FileName>OracleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyComponets.DBUtility.OracleDataBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pUAEABgAgAACIAwAgAAEgAEAAQAAAAAAABgCAECBAIk=</HashCode>
+      <FileName>OracleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyComponets.DBUtility.OracleDbHelper" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEABACAQAQAADhAAAAAACIAAACAAAgAACAAABFAIgA=</HashCode>
+      <FileName>OracleHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlsServer.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlsCenter.Properties.Settings" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UseCase.UseSample" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAATAAEkAAAAAAIIAABIAAAIAQAAACAACAA=</HashCode>
+      <FileName>UseSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UseCase.UtilityDB" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAQwAAAAAIIAAAQAKAAAAAACAAAAiAAAAACA=</HashCode>
+      <FileName>UtilityDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

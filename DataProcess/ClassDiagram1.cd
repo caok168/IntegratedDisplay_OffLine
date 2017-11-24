@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataProcess.CalcSpace.QueryClass" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAgAAAAAAIAAAAIAggAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.CalcSpace.CalcClass1" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAABAAIgAgAAEIgAQAAAggACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.CalcSpace.CalcProcess" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAEAAAgBAACAAAAAAAABAAAAAAAAEAQEAgAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.GEO2CITBind" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.WaveMeter" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEBAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.StringExpression" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.LostDataClass" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABgAAAAAAAABAAAAAAAAAAAAAAAAAggAAAgA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.CDLClass" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.IndexOriClass" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAQAAAAAACABAAAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.IndexClass" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAAAACAEAAAAAIAAAAAGAAgAAAAAAAAAIAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.LabelInfoClass" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAABA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.InvalidDataClass" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.AreaClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.AutoPointClass" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAKQAAARAQAAAAACoACAAAAAEAAAIAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.CITDataProcess" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAhECAAIAAAAAAACAAAQAAAAQAEAAAAAJAACAAAAIA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.STEDataProcess" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAACAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.GEODataProcess" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="DataProcess.GEODataProcess.GEO_FILE_HEADER" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataProcess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="DataProcess.GEODataProcess.DataChannelInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataProcess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIABACAAIAFogAAAAAAAQAAAAIAAAABAAoQACAACAAA=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataProcess.WaveformDataProcess" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABKAgwBIASAAAIFAEAEABDAAgAYMEKAgMAIzEQIAE=</HashCode>
+      <FileName>DataProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

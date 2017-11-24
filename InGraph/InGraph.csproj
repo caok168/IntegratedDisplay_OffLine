@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82C3A325-6961-4F2D-8157-A9E489AD370E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InGraph</RootNamespace>
+    <AssemblyName>地面车辆动态响应分析系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationIcon>Wave2.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>http://localhost/InGraph/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccelerateNew, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\InvalidDataProcessing\Libs\AccelerateNew.dll</HintPath>
+    </Reference>
+    <Reference Include="CitFileProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d441f61be07e1870, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\InvalidDataProcessing\Libs\CitFileProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="DataProcessAdvance, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\InvalidDataProcessing\bin\Debug\DataProcessAdvance.dll</HintPath>
+    </Reference>
+    <Reference Include="dog_net_windows, Version=1.0.1.28668, Culture=neutral, PublicKeyToken=56120be447701319, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\dog_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ADOX, Version=2.8.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>bin\x86\InGraph\Interop.ADOX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="MWArray, Version=2.11.1.0, Culture=neutral, PublicKeyToken=e1d84a0da19db86f, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>J:\Program Files (x86)\MATLAB\MATLAB Compiler Runtime\v716\toolbox\dotnetbuilder\bin\win32\v2.0\MWArray.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\InvalidDataProcessing\Libs\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office14\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="sntl_licgen_net_windows, Version=6.0.1.21879, Culture=neutral, PublicKeyToken=56120be447701319, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\sntl_licgen_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TeeChart">
+      <HintPath>J:\Program Files (x86)\Steema Software\TeeChart for .NET 2010\TeeChart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ChannelsDragClass.cs" />
+    <Compile Include="Classes\DaoChaMileRange.cs" />
+    <Compile Include="Classes\IdfFileHelper.cs" />
+    <Compile Include="Classes\Layers\DatabaseClass.cs" />
+    <Compile Include="Classes\Layers\DataInfoClass.cs" />
+    <Compile Include="Classes\Layers\DBChannelsClass.cs" />
+    <Compile Include="Classes\Layers\DBDataClass.cs" />
+    <Compile Include="Classes\Layers\LayersClass.cs" />
+    <Compile Include="Classes\ListViewHelper.cs" />
+    <Compile Include="Classes\OpenDataPackClass.cs" />
+    <Compile Include="Classes\PWMISTableClass.cs" />
+    <Compile Include="DataProcessClass\CitProcessClass.cs" />
+    <Compile Include="Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AccIrtnCorrugation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccIrtnCorrugation.Designer.cs">
+      <DependentUpon>AccIrtnCorrugation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AccIrtnMileCorrect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccIrtnMileCorrect.Designer.cs">
+      <DependentUpon>AccIrtnMileCorrect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AccIrtnWeld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccIrtnWeld.designer.cs">
+      <DependentUpon>AccIrtnWeld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AcclrtnAnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AcclrtnAnalysisForm.Designer.cs">
+      <DependentUpon>AcclrtnAnalysisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AcclrtnBatProcsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AcclrtnBatProcsForm.Designer.cs">
+      <DependentUpon>AcclrtnBatProcsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AcclrtnRmsProcsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AcclrtnRmsProcsForm.Designer.cs">
+      <DependentUpon>AcclrtnRmsProcsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AttachAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AttachAddForm.Designer.cs">
+      <DependentUpon>AttachAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AttachListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AttachListForm.Designer.cs">
+      <DependentUpon>AttachListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutoIndexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutoIndexForm.Designer.cs">
+      <DependentUpon>AutoIndexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CaseEstablishedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CaseEstablishedForm.Designer.cs">
+      <DependentUpon>CaseEstablishedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CaseViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CaseViewForm.Designer.cs">
+      <DependentUpon>CaseViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChangeDataViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangeDataViewForm.Designer.cs">
+      <DependentUpon>ChangeDataViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChangeDetectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangeDetectionForm.Designer.cs">
+      <DependentUpon>ChangeDetectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChannelsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChannelsDialog.Designer.cs">
+      <DependentUpon>ChannelsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Layers\ChannelsClass.cs" />
+    <Compile Include="Classes\CommonClass.cs" />
+    <Compile Include="Forms\ChannelsConfigDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChannelsConfigDialog.Designer.cs">
+      <DependentUpon>ChannelsConfigDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CitFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CitFilterForm.Designer.cs">
+      <DependentUpon>CitFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CorrelationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CorrelationForm.Designer.cs">
+      <DependentUpon>CorrelationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DataStatisticsForm.Designer.cs">
+      <DependentUpon>DataStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DIYDefectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DIYDefectForm.Designer.cs">
+      <DependentUpon>DIYDefectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EnergyStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EnergyStatisticsForm.Designer.cs">
+      <DependentUpon>EnergyStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EquipmentInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EquipmentInfoForm.Designer.cs">
+      <DependentUpon>EquipmentInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExportBatchIndexDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportBatchIndexDataForm.Designer.cs">
+      <DependentUpon>ExportBatchIndexDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExportDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportDataForm.Designer.cs">
+      <DependentUpon>ExportDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExportIndexDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportIndexDataForm.Designer.cs">
+      <DependentUpon>ExportIndexDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExportWaveDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportWaveDataForm.Designer.cs">
+      <DependentUpon>ExportWaveDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FengFengzhiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FengFengzhiForm.Designer.cs">
+      <DependentUpon>FengFengzhiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FindForm.Designer.cs">
+      <DependentUpon>FindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GongLvPuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GongLvPuForm.Designer.cs">
+      <DependentUpon>GongLvPuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IICDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IICDataForm.Designer.cs">
+      <DependentUpon>IICDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IICViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IICViewForm.Designer.cs">
+      <DependentUpon>IICViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IndexInfoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IndexInfoAddForm.Designer.cs">
+      <DependentUpon>IndexInfoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvalidDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvalidDataForm.Designer.cs">
+      <DependentUpon>InvalidDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvalidDataStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvalidDataStatisticsForm.Designer.cs">
+      <DependentUpon>InvalidDataStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KoufenStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KoufenStatisticsForm.Designer.cs">
+      <DependentUpon>KoufenStatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LabelInfoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LabelInfoAddForm.Designer.cs">
+      <DependentUpon>LabelInfoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LabelInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LabelInfoForm.Designer.cs">
+      <DependentUpon>LabelInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LayerTranslationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LayerTranslationForm.Designer.cs">
+      <DependentUpon>LayerTranslationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LayerForm.Designer.cs">
+      <DependentUpon>LayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LicenseForm.Designer.cs">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MeterageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MeterageForm.Designer.cs">
+      <DependentUpon>MeterageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MultiWaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MultiWaveForm.Designer.cs">
+      <DependentUpon>MultiWaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpenDataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpenDataDialog.Designer.cs">
+      <DependentUpon>OpenDataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IndexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IndexForm.Designer.cs">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SeniorMeterageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SeniorMeterageForm.Designer.cs">
+      <DependentUpon>SeniorMeterageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowForm.Designer.cs">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TeeChartConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TeeChartConfigForm.Designer.cs">
+      <DependentUpon>TeeChartConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ThresholdConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ThresholdConfigForm.Designer.cs">
+      <DependentUpon>ThresholdConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UnitCutPictureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UnitCutPictureForm.Designer.cs">
+      <DependentUpon>UnitCutPictureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WaveConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WaveConvertForm.Designer.cs">
+      <DependentUpon>WaveConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WaveSplitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WaveSplitForm.Designer.cs">
+      <DependentUpon>WaveSplitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvalidDataAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvalidDataAddForm.Designer.cs">
+      <DependentUpon>InvalidDataAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccIrtnCorrugation.resx">
+      <DependentUpon>AccIrtnCorrugation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccIrtnMileCorrect.resx">
+      <DependentUpon>AccIrtnMileCorrect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccIrtnWeld.resx">
+      <DependentUpon>AccIrtnWeld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AcclrtnAnalysisForm.resx">
+      <DependentUpon>AcclrtnAnalysisForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AcclrtnBatProcsForm.resx">
+      <DependentUpon>AcclrtnBatProcsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AcclrtnRmsProcsForm.resx">
+      <DependentUpon>AcclrtnRmsProcsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AttachAddForm.resx">
+      <DependentUpon>AttachAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AttachListForm.resx">
+      <DependentUpon>AttachListForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutoIndexForm.resx">
+      <DependentUpon>AutoIndexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CaseEstablishedForm.resx">
+      <DependentUpon>CaseEstablishedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CaseViewForm.resx">
+      <DependentUpon>CaseViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangeDataViewForm.resx">
+      <DependentUpon>ChangeDataViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangeDetectionForm.resx">
+      <DependentUpon>ChangeDetectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChannelsConfigDialog.resx">
+      <DependentUpon>ChannelsConfigDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChannelsDialog.resx">
+      <DependentUpon>ChannelsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CitFilterForm.resx">
+      <DependentUpon>CitFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CorrelationForm.resx">
+      <DependentUpon>CorrelationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataStatisticsForm.resx">
+      <DependentUpon>DataStatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DIYDefectForm.resx">
+      <DependentUpon>DIYDefectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EnergyStatisticsForm.resx">
+      <DependentUpon>EnergyStatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EquipmentInfoForm.resx">
+      <DependentUpon>EquipmentInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportBatchIndexDataForm.resx">
+      <DependentUpon>ExportBatchIndexDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportDataForm.resx">
+      <DependentUpon>ExportDataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportIndexDataForm.resx">
+      <DependentUpon>ExportIndexDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportWaveDataForm.resx">
+      <DependentUpon>ExportWaveDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FengFengzhiForm.resx">
+      <DependentUpon>FengFengzhiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GongLvPuForm.resx">
+      <DependentUpon>GongLvPuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IICDataForm.resx">
+      <DependentUpon>IICDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IICViewForm.resx">
+      <DependentUpon>IICViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IndexInfoAddForm.resx">
+      <DependentUpon>IndexInfoAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvalidDataForm.resx">
+      <DependentUpon>InvalidDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvalidDataStatisticsForm.resx">
+      <DependentUpon>InvalidDataStatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KoufenStatisticsForm.resx">
+      <DependentUpon>KoufenStatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LabelInfoAddForm.resx">
+      <DependentUpon>LabelInfoAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LabelInfoForm.resx">
+      <DependentUpon>LabelInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LayerTranslationForm.resx">
+      <DependentUpon>LayerTranslationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LayerForm.resx">
+      <DependentUpon>LayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LicenseForm.resx">
+      <DependentUpon>LicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MeterageForm.resx">
+      <DependentUpon>MeterageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiWaveForm.resx">
+      <DependentUpon>MultiWaveForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpenDataDialog.resx">
+      <DependentUpon>OpenDataDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IndexForm.resx">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SeniorMeterageForm.resx">
+      <DependentUpon>SeniorMeterageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowForm.resx">
+      <DependentUpon>ShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TeeChartConfigForm.resx">
+      <DependentUpon>TeeChartConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ThresholdConfigForm.resx">
+      <DependentUpon>ThresholdConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UnitCutPictureForm.resx">
+      <DependentUpon>UnitCutPictureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WaveConvertForm.resx">
+      <DependentUpon>WaveConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WaveSplitForm.resx">
+      <DependentUpon>WaveSplitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvalidDataAddForm.resx">
+      <DependentUpon>InvalidDataAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- EmbeddedResource Include="Properties\licenses.licx" / -->
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SystemConfigForm.resx">
+      <DependentUpon>SystemConfigForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="EXCEPTIONTYPE.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\DataSources\InGraph.Forms.AcclrtnAnalysisForm.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms\SystemConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SystemConfigForm.Designer.cs">
+      <DependentUpon>SystemConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="avedesk.ico" />
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\Wave_Head.jpg" />
+    <None Include="Resources\ProgressGifCalc.gif" />
+    <None Include="Resources\jindutiao.gif" />
+    <None Include="Resources\FILECOPY_16.gif" />
+    <None Include="Resources\jdt.gif" />
+    <Content Include="RegAndCheck\RegAndCheck.dll" />
+    <Content Include="Wave2.ico" />
+    <None Include="Resources\LabelInfo1.gif" />
+    <Content Include="Resources\SINEWAVE.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGridViewAutoFilter\DataGridViewAutoFilter.csproj">
+      <Project>{5A4B4B14-D3B5-4D54-80EC-0877C1E6E73A}</Project>
+      <Name>DataGridViewAutoFilter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProcess\DataProcess.csproj">
+      <Project>{053F9CA8-99FE-4971-8CC6-7E91A3A4EC3F}</Project>
+      <Name>DataProcess</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\InvalidDataProcessing\InvalidDataProcessing.csproj">
+      <Project>{12F5C35E-6CB5-41B6-BE89-FFBD3D5E7C78}</Project>
+      <Name>InvalidDataProcessing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

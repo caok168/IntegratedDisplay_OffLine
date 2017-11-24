@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InGraph.Classes.ChannelsDragClass" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChannelsDragClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.CommonClass" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAkDFAAQEUADoIBEIAbgRmQcABhBQIioBQAZ4gAs6gA=</HashCode>
+      <FileName>Classes\CommonClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.ChannelsClass" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAIAAAAAAAAAAAYAAAQAACAAABAIEAACoAAIAAA=</HashCode>
+      <FileName>Classes\Layers\ChannelsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.DatabaseClass" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Classes\Layers\DatabaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.DataInfoClass" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAIAEAASwOQABEQAACQDCsAGAAEBAgAAAKAYIAA=</HashCode>
+      <FileName>Classes\Layers\DataInfoClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.DBChannelsClass" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAAAAAAAYAAAQAACAAgAAIAAACgAAAAQA=</HashCode>
+      <FileName>Classes\Layers\DBChannelsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.LayersClass" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIIAgQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Layers\LayersClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.ListViewHelper" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ListViewHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.ListViewColumnSorter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAAAAAAAAAAgABBAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\ListViewHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InGraph.Classes.OpenDataPackClass" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEAAAAEAAAAAAAAAAAEAAAAEAAEAQAAAAAgA=</HashCode>
+      <FileName>Classes\OpenDataPackClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.PWMISTableClass" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAABAAAAAQAAEAAAQgAAAAAEAAAA=</HashCode>
+      <FileName>Classes\PWMISTableClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Classes.Layers.DBDataClass" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAA=</HashCode>
+      <FileName>Classes\Layers\DBDataClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.AboutForm" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIAAAAgAACAgCAUAAACAAAADAAAAMIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\AboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.ChannelsDialog" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEEiMAkIACGAABDBAQGBAEACBkD4ZxAIQGAAJgAAIhA=</HashCode>
+      <FileName>Forms\ChannelsDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.ExportDataForm" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAQAACAAABAAAACAAAACAAAAAAAAFGAAAAAAAAA=</HashCode>
+      <FileName>Forms\ExportDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.FindForm" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAEGAACAAAAAA=</HashCode>
+      <FileName>Forms\FindForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.InvalidDataAddForm" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQECQBABAQAAiJAgACAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Forms\InvalidDataAddForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.LayerTranslationForm" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TEYARxCAzGIIQAAgJ2mEAOgCCyC4LwEoMCAJkCAhAEI=</HashCode>
+      <FileName>Forms\LayerTranslationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.MainForm" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+48fPP/jvaL+ig9q+AOLdcEjqJ/5Wd8kbwvR7teTlx8=</HashCode>
+      <FileName>Forms\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.MeterageForm" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAACAAAAAAAACAIBACAAA4BAAAAAAAAABAAAA=</HashCode>
+      <FileName>Forms\MeterageForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.SystemConfigForm" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yCAYAAgACAAQBAgAACBAABCAMw7kDQAgHAPCcEBRAA=</HashCode>
+      <FileName>Forms\SystemConfigForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Program" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.ChannelsConfigDialog" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAwAACEAAAEQAACAAAACAAAAAIAABAAACAFAARQ=</HashCode>
+      <FileName>Forms\ChannelsConfigDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.CorrelationForm" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAASAAABCAAACAQABCIMA4AAAAEHAMAAAAAAA=</HashCode>
+      <FileName>Forms\CorrelationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.EquipmentInfoForm" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEBESAMAgAAAEiAAAACAAjkAAAAAAAAAAoAAAA=</HashCode>
+      <FileName>Forms\EquipmentInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.ExportBatchIndexDataForm" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgADAAACAAAAAAAECEQAACAEA4AAAAIHAIAIAAgAA=</HashCode>
+      <FileName>Forms\ExportBatchIndexDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.ExportIndexDataForm" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAKAAABAAAADAAAACAAEoAAAAIEAAAAAABAA=</HashCode>
+      <FileName>Forms\ExportIndexDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.ExportWaveDataForm" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAABAAIEGAAEgCAAAcAAAAMGAAAAAAAAI=</HashCode>
+      <FileName>Forms\ExportWaveDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.IICDataForm" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAACAAABAAAACAQAECAMA4AAQAEHAsAAEAAAA=</HashCode>
+      <FileName>Forms\IICDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.IICViewForm" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCCRYACMgDbsQVLBgIencABCQcy5dwAi8HAfQCEBdDY=</HashCode>
+      <FileName>Forms\IICViewForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.IndexForm" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAgAAEAAACBACACAFi4Z4AAUHAIAAAAIBQ=</HashCode>
+      <FileName>Forms\IndexForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.IndexMainInfoAddForm" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAGAAABAAAACAAABCAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>Forms\IndexInfoAddForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.InvalidDataForm" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAACAAAACABi4RwAAAHAAEAAAAAA=</HashCode>
+      <FileName>Forms\InvalidDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.LabelInfoAddForm" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAEAACAAAACAAAYAAAAEGAAAABAAAA=</HashCode>
+      <FileName>Forms\LabelInfoAddForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.LabelInfoForm" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAgACCAQAAAIAAABAAAIAAAAA=</HashCode>
+      <FileName>Forms\LabelInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.LayerForm" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAACGgAAAAIACAAAACAAA4BwAAAAAAAAAAAAg=</HashCode>
+      <FileName>Forms\LayerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.LicenseForm" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAABCAAAIAAAAEEAAAACAAAA=</HashCode>
+      <FileName>Forms\LicenseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.OpenDataDialog" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGQAAEECqiABQVAIHQAED+KyACAgAAEEMQIYFMAAA=</HashCode>
+      <FileName>Forms\OpenDataDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.ShowForm" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\ShowForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Forms.WaveSplitForm" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgABAQAACAAAACAAg4BAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Forms\WaveSplitForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Properties.Resources" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAEQAAAAACAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InGraph.Properties.Settings" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIAAAAAABAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="InGraph.Forms.SetEnabledCallbackThis" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\IICDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

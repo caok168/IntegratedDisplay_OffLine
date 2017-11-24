@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<app>
+  <version>0.5</version>
+  <appmode name="ClientServer">
+    <ClientServer>
+      <server>127.0.0.1</server>
+      <port>1235</port>
+    </ClientServer>
+    <StandAlone></StandAlone>
+  </appmode>
+  <dbmode name="Network">
+    <Network>
+      <DataSource>127.0.0.1</DataSource>
+      <InitialCatalog>PWMIS</InitialCatalog>
+      <PersistSecurityInfo>False</PersistSecurityInfo>
+      <UserID>sa</UserID>
+      <Password>sa1234</Password>
+    </Network>
+    <Local></Local>
+  </dbmode>
+  <dbmode>1</dbmode>
+  <channelscount>92</channelscount>
+  <MeterageRadius>5</MeterageRadius>
+  <channels>
+    <channel number="1" name="Sync_Count" realname="Sync_Count" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Count" units="_"/>
+    <channel number="2" name="Sync_Sample" realname="Sync_Sample" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Sample" units="_"/>
+    <channel number="3" name="Speed" realname="Speed" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="速度" units="km/h"/>
+    <channel number="4" name="Track_Division" realname="Track_Division" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="线路区段" units="_"/>
+    <channel number="5" name="Track_Class" realname="Track_Class" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="线路等级" units="_"/>
+    <channel number="6" name="Post_Speed" realname="Post_Speed" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="P速度" units="km/h"/>
+    <channel number="7" name="Track_Number" realname="Track_Number" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="线路编号" units="_"/>
+    <channel number="8" name="CHN_Curve_Rate" realname="CHN_Curve_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="中国曲率变化率" units="Degree"/>
+    <channel number="9" name="ALD" realname="ALD" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="地面标志" units="Volt"/>
+    <channel number="10" name="L_Porf_Mco_Short" realname="L_Porf_Mco_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左高低_短弦" units="mm"/>
+    <channel number="11" name="L_Porf_Mco_Long" realname="L_Porf_Mco_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左高低_长弦" units="mm"/>
+    <channel number="12" name="L_Porf_SC_Long" realname="L_Porf_SC_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左高低_长波" units="mm"/>
+    <channel number="13" name="R_Porf_Mco_Short" realname="R_Porf_Mco_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右高低_短弦" units="mm"/>
+    <channel number="14" name="R_Porf_Mco_Long" realname="R_Porf_Mco_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右高低_长弦" units="mm"/>
+    <channel number="15" name="R_Porf_SC_Long" realname="R_Porf_SC_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右高低_长波" units="mm"/>
+    <channel number="16" name="L_Align_Mco_Short" realname="L_Align_Mco_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左轨向_短弦" units="mm"/>
+    <channel number="17" name="L_Align_Mco_Long" realname="L_Align_Mco_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左轨向_长弦" units="mm"/>
+    <channel number="18" name="L_Align_SC_Long" realname="L_Align_SC_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左轨向_长波" units="mm"/>
+    <channel number="19" name="R_Align_Mco_Short" realname="R_Align_Mco_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右轨向_短弦" units="mm"/>
+    <channel number="20" name="R_Align_Mco_Long" realname="R_Align_Mco_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右轨向_长弦" units="mm"/>
+    <channel number="21" name="R_Align_SC_Long" realname="R_Align_SC_Long" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右轨向_长波" units="mm"/>
+    <channel number="22" name="Gage" realname="Gage" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="轨距" units="mm"/>
+    <channel number="23" name="Gage_Rate" realname="Gage_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="轨距变化率" units="mm"/>
+    <channel number="24" name="Crosslevel" realname="Crosslevel" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="超高" units="mm"/>
+    <channel number="25" name="Crosslevel_Rate" realname="Crosslevel_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="水平变化率" units="mm"/>
+    <channel number="26" name="Curvature" realname="Curvature" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="曲率" units="deg"/>
+    <channel number="27" name="Curvature_Rate" realname="Curvature_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="曲率变化率" units="deg"/>
+    <channel number="28" name="Transit_C_Status" realname="Transit_C_Status" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Transit_C_Status" units="_"/>
+    <channel number="29" name="A_Transit_C_Status" realname="A_Transit_C_Status" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="A_Transit_C_Status" units="_"/>
+    <channel number="30" name="Instrument_Status_1" realname="Instrument_Status_1" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Instrument_Status_1" units="_"/>
+    <channel number="31" name="Instrument_Status_2" realname="Instrument_Status_2" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Instrument_Status_2" units="_"/>
+    <channel number="32" name="TBS" realname="TBS" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="TBS" units="ms*10"/>
+    <channel number="33" name="Long_Twist" realname="Long_Twist" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="三角坑_长" units="mm"/>
+    <channel number="34" name="Unbalance" realname="Unbalance" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Unbalance" units="mm"/>
+    <channel number="35" name="Unbalance_Rate" realname="Unbalance_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Unbalance_Rate" units="mm"/>
+    <channel number="36" name="L_Prof_SC_Short" realname="L_Prof_SC_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左高低" units="mm"/>
+    <channel number="37" name="R_Prof_SC_Short" realname="R_Prof_SC_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右高低" units="mm"/>
+    <channel number="38" name="L_Align_SC_Short" realname="L_Align_SC_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左轨向" units="mm"/>
+    <channel number="39" name="R_Align_SC_Short" realname="R_Align_SC_Short" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右轨向" units="mm"/>
+    <channel number="40" name="Instrument_Status" realname="Instrument_Status" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="Instrument_Status" units="_"/>
+    <channel number="41" name="Short_Twist" realname="Short_Twis" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="三角坑" units="mm"/>
+    <channel number="42" name="VACC" realname="VACC" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="车体垂向加速度" units="g"/>
+    <channel number="43" name="LACC" realname="LACC" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="车体横向加速度" units="g"/>
+    <channel number="44" name="Lacc_Rate" realname="Lacc_Rate" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="横加变化率" units="g"/>
+    <channel number="45" name="IRRE_Lshort" realname="IRRE_Lshort" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左复合_短波" units="_"/>
+    <channel number="46" name="IRRE_Rshort" realname="IRRE_Rshort" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右复合_短波" units="_"/>
+    <channel number="47" name="IRRE_Llong" realname="IRRE_Llong" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="左复合_长波" units="_"/>
+    <channel number="48" name="IRRE_Rlong" realname="IRRE_Rlong" type="1" color="FF33FF33" visible="true" zoomin="1" displayname="右复合_长波" units="_"/>
+    <channel number="1001" name="Velocity_Calculated" realname="Velocity_Calculated" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-Velocity_Calculated" units="km/hr"/>
+    <channel number="1002" name="IWS_#1_Problem" realname="IWS_#1_Problem" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-IWS_#1_Problem" units="_"/>
+    <channel number="1003" name="IWS_#2_Problem" realname="IWS_#2_Problem" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-IWS_#2_Problem" units="_"/>
+    <channel number="1004" name="VL1_Axle_1-2" realname="VL1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-VL1_Axle_1-2" units="kN"/>
+    <channel number="1005" name="VR1_Axle_1-2" realname="VR1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-VR1_Axle_1-2" units="kN"/>
+    <channel number="1006" name="LL1_Axle_1-2" realname="LL1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LL1_Axle_1-2" units="kN"/>
+    <channel number="1007" name="LR1_Axle_1-2" realname="LR1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LR1_Axle_1-2" units="kN"/>
+    <channel number="1008" name="PL1_Axle_1-2" realname="PL1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-PL1_Axle_1-2" units="centimeter"/>
+    <channel number="1009" name="PR1_Axle_1-2" realname="PR1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-PR1_Axle_1-2" units="centimeter"/>
+    <channel number="1010" name="LVL1_Axle_1-2" realname="LVL1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LVL1_Axle_1-2" units="ratio"/>
+    <channel number="1011" name="LVR1_Axle_1-2" realname="LVR1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LVR1_Axle_1-2" units="ratio"/>
+    <channel number="1012" name="NALV1_Axle_1-2" realname="NAL1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-NALV1_Axle_1-2" units="ratio"/>
+    <channel number="1013" name="NAL1_Axle_1-2" realname="NALV1_Axle_1-2" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-NAL1_Axle_1-2" units="kN"/>
+    <channel number="1014" name="VL2_Axle_3-4" realname="VL2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-VL2_Axle_3-4" units="kN"/>
+    <channel number="1015" name="VR2_Axle_3-4" realname="VR2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-VR2_Axle_3-4" units="kN"/>
+    <channel number="1016" name="LL2_Axle_3-4" realname="LL2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LL2_Axle_3-4" units="kN"/>
+    <channel number="1017" name="LR2_Axle_3-4" realname="LR2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LR2_Axle_3-4" units="kN"/>
+    <channel number="1018" name="PL2_Axle_3-4" realname="PL2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-PL2_Axle_3-4" units="centimeter"/>
+    <channel number="1019" name="PR2_Axle_3-4" realname="PR2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-PR2_Axle_3-4" units="centimeter"/>
+    <channel number="1020" name="LVL2_Axle_3-4" realname="LVL2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LVL2_Axle_3-4" units="ratio"/>
+    <channel number="1021" name="LVR2_Axle_3-4" realname="LVR2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-LVR2_Axle_3-4" units="ratio"/>
+    <channel number="1022" name="NALV2_Axle_3-4" realname="NALV2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-NALV2_Axle_3-4" units="ratio"/>
+    <channel number="1023" name="NAL2_Axle_3-4" realname="NALV2_Axle_3-4" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-NAL2_Axle_3-4" units="kN"/>
+    <channel number="1024" name="TSLVL1_Lead_Truck_Le" realname="CH-TSLVL1_Lead_Truck" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-TSLVL1_Lead_Truck" units="ratio"/>
+    <channel number="1025" name="TSLVR1_Lead_Truck_Ri" realname="CH-TSLVR1_Lead_Truck" type="2" color="FF33FF33" visible="true" zoomin="1" displayname="CH-TSLVR1_Lead_Truck" units="ratio"/>
+    <channel number="2001" name="fz1" realname="fz1" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="压力1" units="N"/>
+    <channel number="2002" name="fz2" realname="fz2" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="压力2" units="N"/>
+    <channel number="2003" name="fz3" realname="fz3" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="压力3" units="N"/>
+    <channel number="2004" name="fz4" realname="fz4" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="压力4" units="N"/>
+    <channel number="2005" name="az_bf" realname="az_bf" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="基座垂向加速度" units="m/s2"/>
+    <channel number="2006" name="ay_bf" realname="ay_bf" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="基座前后加速度" units="m/s2"/>
+    <channel number="2007" name="temp" realname="temp" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="温度" units="oC"/>
+    <channel number="2008" name="az" realname="az" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="硬点" units="m/s2"/>
+    <channel number="2009" name="fzI" realname="fzI" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="滑板1压力" units="N"/>
+    <channel number="2010" name="fzII" realname="fzII" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="滑板2压力" units="N"/>
+    <channel number="2011" name="fz" realname="fz" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="无补偿接触力" units="N"/>
+    <channel number="2012" name="fzaz" realname="fzaz" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="有补偿接触力" units="N"/>
+    <channel number="2013" name="stagger" realname="stagger" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="拉出值" units="mm"/>
+    <channel number="2014" name="h_panto" realname="h_panto" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="弓的动态高度" units="mm"/>
+    <channel number="2015" name="mast" realname="mast" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="支柱信号" units="_"/>
+    <channel number="2016" name="I" realname="I" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="网流" units="A"/>
+    <channel number="2017" name="U" realname="U" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="网压" units="V"/>
+    <channel number="2018" name="ax" realname="ax" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="冲击" units="m/s2"/>
+    <channel number="2019" name="speed" realname="speed" type="3" color="FF33FF33" visible="true" zoomin="1" displayname="速度" units="km/h"/>
+  </channels>
+</app>

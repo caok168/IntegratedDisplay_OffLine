@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<app>
+  <version>1.0</version>
+  <InvalidDataShow>true</InvalidDataShow>
+  <MeterageRadius>5</MeterageRadius>
+  <AutoScroll>30</AutoScroll>
+  <ServerConfig server="172.16.80.209" port="1235"/>
+  <pwmis graph="true">
+    <item1 name="qx" para1="起点里程" para2="终点里程" graph="true" text1="曲线半径" sDisplayField="起点里程,终点里程,曲线方向,曲线半径,超高,曲线全长">曲线</item1>
+    <item2 name="pd" para1="起点里程" para2="终点里程" graph="false" text1="坡度" sDisplayField="*">坡度</item2>
+    <item3 name="dch" para1="尖轨尖里程" para2="" graph="false" text1="尖轨尖里程" sDisplayField="*">道岔</item3>
+    <item6 name="长短链" para1="公里" para2="" graph="false" text1="类型" sDisplayField="*">长短链</item6>
+    <item2 name="Suduji" para1="起点里程" para2="终点里程" graph="false" text1="LINESPEEDLEVEL" sDisplayField="*">速度区段</item2>
+  </pwmis>
+  <ConfigFiles>
+    <default1></default1>
+    <default2></default2>
+    <default3></default3>
+    <default4></default4>
+    <default5></default5>
+    <default6></default6>
+    <default7></default7>
+    <default8></default8>
+    <default9></default9>
+    <default10></default10>
+  </ConfigFiles>
+  <default>
+    <Path></Path>
+  </default>
+  <ExportData>
+    <File>c:\</File>
+    <Data>c:\</Data>
+    <WaveSplitPath>c:\</WaveSplitPath>
+  </ExportData>
+  <HisLayer>
+    <L1>-16776961</L1>
+    <L2>-16744448</L2>
+    <L3>-16777216</L3>
+    <L4>-8355712</L4>
+    <L5>-8355712</L5>
+    <L6>-8355712</L6>
+    <L7>-8355712</L7>
+    <L8>-8355712</L8>
+    <L9>-8355712</L9>
+    <L10>-8355712</L10>
+  </HisLayer>
+  <!--C:\Documents and Settings\zp\My Documents\Visual Studio 2008\Projects\IntegratedDisplay\InGraph\bin\Debug\CIT轨检_黑色_2mm.xml<
+  <pwmis connectionstring="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\db\InfoData.mdb;Persist Security Info=True"/>
+  Provider=MSDAORA.1;User ID=xlsb;password=xlsb;Data Source=iicora;Persist Security Info=False
+  -->
+  <!--<item3 name="xlsb.dch" para1="尖轨尖里程" para2="" graph="false">道岔</item3>
+    <item4 name="qs.qlz" para1="中心里程" para2="" graph="false">桥梁</item4>
+    <item5 name="qs.sdz" para1="中心里程" para2="" graph="false">隧道</item5>-->
+</app>

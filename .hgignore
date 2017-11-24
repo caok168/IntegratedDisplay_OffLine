@@ -1,0 +1,244 @@
+syntax: glob
+波形软件签收单.doc
+RegGenerater/obj/x86/Debug/TempPE/Properties.Resources.Designer.cs.dll
+RegGenerater/obj/x86/Debug/RegGenerater.pdb
+RegGenerater/obj/x86/Debug/RegGenerater.exe
+RegGenerater/obj/x86/Debug/RegGenerater.csprojResolveAssemblyReference.cache
+RegGenerater/obj/x86/Debug/RegGenerater.csproj.GenerateResource.Cache
+RegGenerater/obj/x86/Debug/RegGenerater.csproj.FileListAbsolute.txt
+RegGenerater/obj/x86/Debug/RegGenerater.Properties.Resources.resources
+RegGenerater/obj/x86/Debug/RegGenerater.Form1.resources
+RegGenerater/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+RegGenerater/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+RegGenerater/bin/Debug/RegGenerater_Locked/RegGenerater_1.0.0.0.ilmap
+RegGenerater/bin/Debug/RegGenerater_Locked/RegGenerater.exe.config
+RegGenerater/bin/Debug/RegGenerater_Locked/RegGenerater.exe
+RegGenerater/bin/Debug/RegGenerater.vshost.exe.manifest
+RegGenerater/bin/Debug/RegGenerater.vshost.exe.config
+RegGenerater/bin/Debug/RegGenerater.vshost.exe
+RegGenerater/bin/Debug/RegGenerater.pdb
+RegGenerater/bin/Debug/RegGenerater.exe.config
+RegGenerater/bin/Debug/RegGenerater.exe
+RegDLL_Source/obj/Debug/RegDLL.csprojResolveAssemblyReference.cache
+RegDLL_Source/obj/Debug/RegDLL.csproj.GenerateResource.Cache
+RegDLL_Source/obj/Debug/RegDLL.csproj.FileListAbsolute.txt
+RegDLL_Source/obj/Debug/RegDLL.RegDLL.FrmReg.resources
+RegDLL_Source/obj/Debug/RegDLL.FrmReg.resources
+RegDLL_Source/obj/Debug/RegAndCheck.pdb
+RegDLL_Source/obj/Debug/RegAndCheck.dll
+RegDLL_Source/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+RegDLL_Source/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+RegDLL_Source/bin/Debug/RegAndCheck.pdb
+RegDLL_Source/bin/Debug/RegAndCheck.dll
+vssver2.scc
+mssccprj.scc
+Received/obj/x86/Debug/TCPFileTransferServer.pdb
+Received/obj/x86/Debug/TCPFileTransferServer.exe
+Received/obj/x86/Debug/TCPFileTransferServer.csproj.FileListAbsolute.txt
+Received/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Received/bin/x86/Debug/db.dat
+InvalidDataProcessing/obj/x86/Debug/TempPE/Properties.Resources.Designer.cs.dll
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.pdb
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.dll
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.csprojResolveAssemblyReference.cache
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.csproj.GenerateResource.Cache
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.csproj.FileListAbsolute.txt
+InvalidDataProcessing/obj/x86/Debug/InvalidDataProcessing.Properties.Resources.resources
+InvalidDataProcessing/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+InvalidDataProcessing/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+InvalidDataProcessing/bin/Debug/MWArray.xml
+InvalidDataProcessing/bin/Debug/MWArray.dll
+InvalidDataProcessing/bin/Debug/InvalidDataProcessing.vshost.exe.config
+InvalidDataProcessing/bin/Debug/InvalidDataProcessing.vshost.exe
+InvalidDataProcessing/bin/Debug/InvalidDataProcessing.pdb
+InvalidDataProcessing/bin/Debug/InvalidDataProcessing.dll.config
+InvalidDataProcessing/bin/Debug/InvalidDataProcessing.dll
+InvalidDataProcessing/bin/Debug/DataProcessAdvance.dll
+InvalidDataProcessing/bin/Debug/DataProcess.pdb
+InvalidDataProcessing/bin/Debug/DataProcess.dll
+Controls/bin/x86/Debug/config.xml
+Controls/bin/x86/Debug/MWArray.dll
+Controls/bin/x86/Debug/Interop.ADOX.dll
+Controls/bin/x86/Debug/DataProcess.pdb
+Controls/bin/x86/Debug/DataProcess.dll
+Controls/bin/x86/Debug/ControlsServer.pdb
+Controls/bin/x86/Debug/ControlsServer.exe.config
+Controls/bin/x86/Debug/ControlsServer.exe
+Controls/bin/x86/Debug/CalcDC.dll
+Controls/ControlsServer.csproj.vspscc
+Clients/obj/x86/Debug/TempPE/Properties.Resources.Designer.cs.dll
+Clients/obj/x86/Debug/TCPFileTransferClient.pdb
+Clients/obj/x86/Debug/TCPFileTransferClient.exe
+Clients/obj/x86/Debug/TCPFileTransferClient.csproj.GenerateResource.Cache
+Clients/obj/x86/Debug/TCPFileTransferClient.csproj.FileListAbsolute.txt
+Clients/obj/x86/Debug/TCPFileTransferClient.Properties.Resources.resources
+Clients/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Clients/obj/x86/Debug/Clients.MainForm.resources
+Clients/bin/x86/Debug/config.dat
+Clients/bin/x86/Debug/TCPFileTransferClient.pdb
+Clients/bin/x86/Debug/TCPFileTransferClient.exe.config
+Clients/bin/x86/Debug/TCPFileTransferClient.exe
+Clients/TCPFileTransferClient.csproj.vspscc
+DataProcess/obj/x86/Debug/Refactor/DataProcess.dll
+DataProcess/obj/x86/Debug/Interop.NetFwTypeLib.dll
+DataProcess/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+DataProcess/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+DataProcess/obj/x86/Debug/DataProcess.pdb
+DataProcess/obj/x86/Debug/DataProcess.dll
+DataProcess/obj/x86/Debug/DataProcess.csprojResolveAssemblyReference.cache
+DataProcess/obj/x86/Debug/DataProcess.csproj.ResolveComReference.cache
+DataProcess/obj/x86/Debug/DataProcess.csproj.FileListAbsolute.txt
+DataProcess/obj/Debug/build.force
+DataProcess/obj/Debug/Refactor/DataProcess.dll
+DataProcess/obj/Debug/Interop.ADOX.dll
+DataProcess/obj/Debug/Interop.ADODB.dll
+DataProcess/obj/Debug/GenerateResource.write.413.tlog
+DataProcess/obj/Debug/GenerateResource.write.412.tlog
+DataProcess/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+DataProcess/obj/Debug/DataProcess.pdb
+DataProcess/obj/Debug/DataProcess.dll
+DataProcess/obj/Debug/DataProcess.csproj.ResolveComReference.cache
+DataProcess/obj/Debug/DataProcess.csproj.FileListAbsolute.txt
+DataProcess/bin/x86/Debug/DataProcess.pdb
+DataProcess/bin/x86/Debug/DataProcess.dll.config
+DataProcess/bin/x86/Debug/DataProcess.dll
+DataProcess/DataProcess.csproj.vspscc
+DataGridViewAutoFilter/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+DataGridViewAutoFilter/obj/Debug/DataGridViewAutoFilter.pdb
+DataGridViewAutoFilter/obj/Debug/DataGridViewAutoFilter.dll
+DataGridViewAutoFilter/obj/Debug/DataGridViewAutoFilter.csproj.FileListAbsolute.txt
+DataGridViewAutoFilter/bin/Debug/DataGridViewAutoFilter.pdb
+DataGridViewAutoFilter/bin/Debug/DataGridViewAutoFilter.dll
+Controls/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Controls/obj/x86/Debug/ControlsServer.pdb
+Controls/obj/x86/Debug/ControlsServer.exe
+Controls/obj/x86/Debug/ControlsServer.csprojResolveAssemblyReference.cache
+Controls/obj/x86/Debug/ControlsServer.csproj.GenerateResource.Cache
+Controls/obj/x86/Debug/ControlsServer.csproj.FileListAbsolute.txt
+Controls/obj/x86/Debug/ControlsCenter.ControlsForm.resources
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/通道配置文件/02.xml
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/通道配置文件/01.xml
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/默认配置文件.xml
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/sntl_licgen_net_windows.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/dog_net_windows.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/config.xml
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/config.ini
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/api_dsp_windows.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/TeeChart.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/RegAndCheck.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/MWArray.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/LogData/InGraph.log
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/Interop.ADOX.dll
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/InnerDB.idf
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/InnerDB-南昌.idf
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/InnerDB - 兰州.idf
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/InGraph.exe.config
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/InGraph.exe
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/w999304.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/WX999305.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH380B-002.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH380A-001.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH2-150C.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH2-150C - AC.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH2-068C.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH2-061C.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH2-010A.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CRH--380B-002.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/CIT001.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/6xingche.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/5xingche.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/068C.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/GEOConfig/061C.csv
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/EXCEPTIONTYPE.ini
+InGraph/bin/InGraph_绿色加密 - 20141022-陶凯/ConfigInfo.dll
+InGraph/bin/Debug/config.xml
+InGraph/bin/Debug/acceleration.dll
+InGraph/bin/Debug/TeeChart.xml
+InGraph/bin/Debug/TeeChart.dll
+InGraph/bin/Debug/RegAndCheck.dll
+InGraph/bin/Debug/MWArray.dll
+InGraph/bin/Debug/Interop.ADOX.dll
+InGraph/bin/Debug/InnerDB.idf
+InGraph/bin/Debug/InGraph.vshost.exe.config
+InGraph/bin/Debug/InGraph.vshost.exe
+InGraph/bin/Debug/InGraph.pdb
+InGraph/bin/Debug/InGraph.exe.config
+InGraph/bin/Debug/InGraph.exe
+InGraph/bin/Debug/EXCEPTIONTYPE.ini
+InGraph/bin/Debug/DataProcess.pdb
+InGraph/bin/Debug/DataProcess.dll
+InGraph/bin/Debug/CalcDC.dll
+Doc/~$数据格式_终稿.doc
+InGraph/bin/x86/Debug/InGraph_Locked/dog_net_windows.dll
+InGraph/bin/x86/Debug/InGraph_Locked/config.xml
+InGraph/bin/x86/Debug/InGraph_Locked/config.ini
+InGraph/bin/x86/Debug/InGraph_Locked/api_dsp_windows.dll
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/w999307.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/w999304.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/WX999305.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH380B-002.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH380A-001.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH2-150C.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH2-068C.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH2-061C.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH2-010A.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CRH-1099A.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/CIT001.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/6xingche.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/5xingche.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/4gaixing.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/068C.csv
+InGraph/bin/x86/Debug/InGraph_Locked/GEOConfig/061C.csv
+InGraph/bin/x86/Debug/InGraph_Locked/EXCEPTIONTYPE.ini
+InGraph/bin/x86/Debug/InGraph_Locked/DataGridViewAutoFilter.dll
+InGraph/bin/x86/Debug/InGraph_Locked/ConfigInfo.dll
+InGraph/bin/x86/Debug/InGraph.vshost.exe.manifest
+InGraph/bin/x86/Debug/InGraph.vshost.exe.config
+InGraph/bin/x86/Debug/InGraph.vshost.exe
+InGraph/bin/x86/Debug/InGraph.pdb
+InGraph/bin/x86/Debug/InGraph.exe
+InGraph/bin/x86/Debug/GEOConfig/w999307.csv
+InGraph/bin/x86/Debug/GEOConfig/CRH2-150C - AC.csv
+InGraph/bin/x86/Debug/GEOConfig/CRH-1099A.csv
+InGraph/bin/x86/Debug/GEOConfig/CRH--380B-002.csv
+InGraph/bin/x86/Debug/GEOConfig/4gaixing.csv
+InGraph/bin/x86/Debug/GEOConfig/--CIT001.csv
+InGraph/bin/x86/Debug/DataProcess.pdb
+InGraph/bin/x86/Debug/DataProcess.dll
+InGraph/bin/x86/Debug/DataGridViewAutoFilter.pdb
+InGraph/bin/x86/Debug/DataGridViewAutoFilter.dll
+InGraph/bin/x86/Debug/88.xml
+InGraph/bin/x86/Debug/77.xml
+InGraph/bin/x86/Debug/-InnerDB.idf
+InGraph/bin/x86/Debug/---InnerDB.idf
+InGraph/bin/x86/Debug/------InnerDB.idf
+InGraph/bin/x86/Debug/--------InnerDB.idf
+InGraph/bin/x64/Debug/config.xml
+InGraph/bin/x64/Debug/acceleration.dll
+InGraph/bin/x64/Debug/TeeChart.xml
+InGraph/bin/x64/Debug/TeeChart.dll
+InGraph/bin/x64/Debug/RegAndCheck.dll
+InGraph/bin/x64/Debug/MWArray.dll
+InGraph/bin/x64/Debug/Interop.ADOX.dll
+InGraph/bin/x64/Debug/InnerDB.idf
+InGraph/bin/x64/Debug/InGraph.vshost.exe.config
+InGraph/bin/x64/Debug/InGraph.vshost.exe
+InGraph/bin/x64/Debug/InGraph.pdb
+InGraph/bin/x64/Debug/InGraph.exe.config
+InGraph/bin/x64/Debug/InGraph.exe
+InGraph/bin/x64/Debug/EXCEPTIONTYPE.ini
+InGraph/bin/x64/Debug/DataProcess.pdb
+InGraph/bin/x64/Debug/DataProcess.dll
+InGraph/bin/x64/Debug/CalcDC.dll
+轨道检测数据波形综合分析软件用户手册V2.0.doc
+波形软件分发记录.xlsx
+InvalidDataProcessing/bin/Debug/PreProcessingMultiChannel.dll
+InvalidDataProcessing/bin/Debug/PreProcessing.dll
+InvalidDataProcessing/bin/Debug/Interop.ADOX.dll
+InvalidDataProcessing/bin/Debug/CalcDC.dll
+IntegratedDisplay.suo
+Doc/波形需求变更.xls
+Doc/波形数据格式_终稿.doc
+DataProcess/bin/x86/Debug/MWArray.dll
+DataProcess/bin/x86/Debug/Interop.ADOX.dll
+DataProcess/bin/x86/Debug/CalcDC.dll

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<app>
+  <!--Config server="172.16.80.209" port="1235" mode="0"/-->
+  <!--DBCenter connectionstring="Provider=OraOLEDB.Oracle.1;User ID=iic_dc;password=iic*dctabs201b;Data Source=orcl;Persist Security Info=False"/-->
+  <!--DBMobile connectionstring="Provider=SQLOLEDB;Data Source=172.16.80.215;Password=cit400web;User ID=CIT400Web;Initial Catalog=CIT400_Web"/-->
+  <!--DBDataPath>Y:\guijian\Data\Manage\</DBDataPath-->
+  <!--DBBKDataPath>Y:\guijian\Data\Backup\</DBBKDataPath-->
+  <!--DBTMPDataPath>Y:\guijian\轨检数据\</DBTMPDataPath-->
+  <Config server="172.16.80.12" port="1522" mode="0"/>
+  <DBCenter connectionstring="Provider=OraOLEDB.Oracle.1;User ID=iic_dc_gj;password=iic_dc_gj;Data Source=orcl;Persist Security Info=False"/>
+  <DBMobile connectionstring="Provider=SQLOLEDB;Data Source=172.16.80.215;Password=cit400web;User ID=CIT400Web;Initial Catalog=CIT400_Web"/>
+  <DBDataPath>F:\guijian\Data\Manage\</DBDataPath>
+  <DBBKDataPath>F:\guijian\Data\Backup\</DBBKDataPath>
+  <DBTMPDataPath>F:\guijian\轨检数据\</DBTMPDataPath>
+</app>
